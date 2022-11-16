@@ -1,0 +1,151 @@
+body {
+    /* background-color: floralwhite; */
+    margin: 0 auto;
+    max-width: 100vw;
+    font-style: italic;
+    font-size: large;
+  }
+.navbar {
+    bottom: 0;
+    right: 0;
+    list-style: none;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-image: url("images/1.jpg");
+    background-position: center;
+    margin-top: -150px;
+
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-image: url("images/q&e.jpg");
+    background-position: center;
+    margin-top: -150px;
+
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-image: url("images/baking.jpg");
+    background-position: center;
+    margin-top: -150px;
+
+}
+.image3 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-image: url("images/healthy.jpg");
+    background-position: center;
+    margin-top: -150px;
+
+}
+
+
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    color: rgb(163, 22, 163);
+}
+
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+h4 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.card {
+    margin: 0 auto;
+}
+
+.position-fixed {
+    z-index: 100;
+}
+
+.carousel-item {
+    transition: 2s;
+}
+
+.carousel-item:hover {
+    transition: 2s;
+    transform: scale(1.01);
+}
+
+.carousel-item:hover h4 {
+
+    border-bottom: 2px solid orange;
+}
+
+.card{
+    transition: 3s;
+}
+
+.card:hover {
+    transition: 3s;
+    transform: scale(1.05);
+    color: silver;
+}  
+.card {
+    justify-content: space-around;
+}
+
+.recipe{
+    padding: 200px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
